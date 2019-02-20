@@ -1,0 +1,334 @@
+<ecomexpress-objects version="1.0">
+<object pk="1" model="awb">
+<field type="BigIntegerField" name="awb_number">294346073</field>
+<field type="CharField" name="orderid">ORD13011/18-19/25</field>
+<field type="FloatField" name="actual_weight">10</field>
+<field type="CharField" name="origin">CHENNAI - MPC</field>
+<field type="CharField" name="destination">CUMBUM - AP - CBM</field>
+<field type="CharField" name="current_location_name">CUMBUM - AP - CBM</field>
+<field type="CharField" name="current_location_code">CBM</field>
+<field type="CharField" name="customer">
+KKROWTEN INDIA ENTERPRISES PRIVATE LIMITED - 352080
+</field>
+<field type="CharField" name="consignee">Botla ranga nayakulu</field>
+<field type="CharField" name="pickupdate">01-Feb-2019</field>
+<field type="CharField" name="status">Delivered / Closed</field>
+<field type="CharField" name="tracking_status">Delivered</field>
+<field type="CharField" name="reason_code">999 - Delivered</field>
+<field type="CharField" name="reason_code_description">Delivered</field>
+<field type="CharField" name="reason_code_number">999</field>
+<field type="CharField" name="receiver">RANGA</field>
+<field type="CharField" name="lat">0.0000000</field>
+<field type="CharField" name="long">0.0000000</field>
+<field type="CharField" name="expected_date">04-Feb-2019</field>
+<field type="CharField" name="last_update_date">04-Feb-2019</field>
+<field type="CharField" name="last_update_datetime">04-Feb-2019 18:51</field>
+<field type="CharField" name="delivery_date">2019-02-04 18:49:00</field>
+<field type="CharField" name="ref_awb">None</field>
+<field type="CharField" name="rts_shipment">0</field>
+<field type="CharField" name="system_delivery_update">2019-02-04 18:51:21</field>
+<field type="CharField" name="rts_system_delivery_status"/>
+<field type="CharField" name="rts_reason_code_number"/>
+<field type="CharField" name="rts_last_update"/>
+<field type="CharField" name="pincode">523372</field>
+<field type="CharField" name="city">CUMBUM</field>
+<field type="CharField" name="state">Andhra Pradesh</field>
+<field type="CharField" name="delivery_pod_image"/>
+<field type="CharField" name="delivery_pod_signature"/>
+<field type="CharField" name="rev_pickup_signature"/>
+<field type="CharField" name="rev_pickup_packed_image"/>
+<field type="CharField" name="rev_pickup_open_image"/>
+
+<field type="DateTimeField" name="updated_on">04 Feb, 2019, 18:51 </field>
+<field type="CharField" name="status">Shipment delivered</field>
+<field type="CharField" name="reason_code">999 - Delivered</field>
+<field type="CharField" name="reason_code_number">999</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">CBM</field>
+<field type="CharField" name="location_city">CUMBUM</field>
+<field type="CharField" name="location_type">Service Center</field>
+<field type="CharField" name="city_name">CUMBUM</field>
+<field type="CharField" name="Employee">Ravikumar Panuganti . - 23783</field>
+</object>
+<object pk="2" model="scan_stages">
+<field type="DateTimeField" name="updated_on">04 Feb, 2019, 07:24 </field>
+<field type="CharField" name="status">
+Shipment out for delivery, assigned to EmployeeRavikumar Panuganti.
+</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">006</field>
+<field type="CharField" name="scan_status">OUT</field>
+<field type="CharField" name="location">CBM</field>
+<field type="CharField" name="location_city">CUMBUM</field>
+<field type="CharField" name="location_type">Service Center</field>
+<field type="CharField" name="city_name">CUMBUM</field>
+<field type="CharField" name="Employee">Ravikumar Panuganti . - 23783</field>
+</object>
+<object pk="3" model="scan_stages">
+<field type="DateTimeField" name="updated_on">04 Feb, 2019, 06:58 </field>
+<field type="CharField" name="status">Shipment in-scan at DC</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">005</field>
+<field type="CharField" name="scan_status">IN</field>
+<field type="CharField" name="location">CBM</field>
+<field type="CharField" name="location_city">CUMBUM</field>
+<field type="CharField" name="location_type">Service Center</field>
+<field type="CharField" name="city_name">CUMBUM</field>
+<field type="CharField" name="Employee">Ravikumar Panuganti . - 23783</field>
+</object>
+<object pk="4" model="scan_stages">
+<field type="DateTimeField" name="updated_on">04 Feb, 2019, 06:58 </field>
+<field type="CharField" name="status">In-Transit</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number"/>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">CBM</field>
+<field type="CharField" name="location_city">CUMBUM</field>
+<field type="CharField" name="location_type">Service Center</field>
+<field type="CharField" name="city_name">CUMBUM</field>
+<field type="CharField" name="Employee">Ravikumar Panuganti . - 23783</field>
+</object>
+<object pk="5" model="scan_stages">
+<field type="DateTimeField" name="updated_on">03 Feb, 2019, 19:42 </field>
+<field type="CharField" name="status">Bag scanned at DC</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">IN</field>
+<field type="CharField" name="location">CBM</field>
+<field type="CharField" name="location_city">CUMBUM</field>
+<field type="CharField" name="location_type">Service Center</field>
+<field type="CharField" name="city_name">CUMBUM</field>
+<field type="CharField" name="Employee">Ravikumar Panuganti . - 23783</field>
+</object>
+<object pk="6" model="scan_stages">
+<field type="DateTimeField" name="updated_on">03 Feb, 2019, 17:02 </field>
+<field type="CharField" name="status">In-Transit</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">KDH</field>
+<field type="CharField" name="location_city">KADAPA HUB</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">KADAPA HUB</field>
+<field type="CharField" name="Employee">HOWDEKAR VEERAKIRAN - 38003</field>
+</object>
+<object pk="7" model="scan_stages">
+<field type="DateTimeField" name="updated_on">03 Feb, 2019, 17:00 </field>
+<field type="CharField" name="status">Bag connected from HUB</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">OUT</field>
+<field type="CharField" name="location">KDH</field>
+<field type="CharField" name="location_city">KADAPA HUB</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">KADAPA HUB</field>
+<field type="CharField" name="Employee">HOWDEKAR VEERAKIRAN - 38003</field>
+</object>
+<object pk="8" model="scan_stages">
+<field type="DateTimeField" name="updated_on">03 Feb, 2019, 13:44 </field>
+<field type="CharField" name="status">Shipment connected from HUB (Bag No. SL14596759)</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">KDH</field>
+<field type="CharField" name="location_city">KADAPA HUB</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">KADAPA HUB</field>
+<field type="CharField" name="Employee">Thalamudipi Shamsheer Hussain - 53418</field>
+</object>
+<object pk="9" model="scan_stages">
+<field type="DateTimeField" name="updated_on">03 Feb, 2019, 13:44 </field>
+<field type="CharField" name="status">Shipment in-scan at HUB</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">005</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">KDH</field>
+<field type="CharField" name="location_city">KADAPA HUB</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">KADAPA HUB</field>
+<field type="CharField" name="Employee">Thalamudipi Shamsheer Hussain - 53418</field>
+</object>
+<object pk="10" model="scan_stages">
+<field type="DateTimeField" name="updated_on">03 Feb, 2019, 06:59 </field>
+<field type="CharField" name="status">Bag scanned at Hub</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">IN</field>
+<field type="CharField" name="location">KDH</field>
+<field type="CharField" name="location_city">KADAPA HUB</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">KADAPA HUB</field>
+<field type="CharField" name="Employee">VISHNU TEJA MOOSEKARANAM - 37981</field>
+</object>
+<object pk="11" model="scan_stages">
+<field type="DateTimeField" name="updated_on">03 Feb, 2019, 00:02 </field>
+<field type="CharField" name="status">In-Transit</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">HNH</field>
+<field type="CharField" name="location_city">BENGALURU</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">BENGALURU</field>
+<field type="CharField" name="Employee">ANAND.B.N . - 24953</field>
+</object>
+<object pk="12" model="scan_stages">
+<field type="DateTimeField" name="updated_on">02 Feb, 2019, 23:39 </field>
+<field type="CharField" name="status">Bag connected from HUB</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">OUT</field>
+<field type="CharField" name="location">HNH</field>
+<field type="CharField" name="location_city">BENGALURU</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">BENGALURU</field>
+<field type="CharField" name="Employee">ANAND.B.N . - 24953</field>
+</object>
+<object pk="13" model="scan_stages">
+<field type="DateTimeField" name="updated_on">02 Feb, 2019, 07:25 </field>
+<field type="CharField" name="status">Bag scanned at Hub</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">IN</field>
+<field type="CharField" name="location">HNH</field>
+<field type="CharField" name="location_city">BENGALURU</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">BENGALURU</field>
+<field type="CharField" name="Employee">KIRAN BA - 52051</field>
+</object>
+<object pk="14" model="scan_stages">
+<field type="DateTimeField" name="updated_on">02 Feb, 2019, 01:43 </field>
+<field type="CharField" name="status">In-Transit</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">MAH</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">S Aravindh Raj . - 30301</field>
+</object>
+<object pk="15" model="scan_stages">
+<field type="DateTimeField" name="updated_on">02 Feb, 2019, 01:39 </field>
+<field type="CharField" name="status">Bag connected from HUB</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">OUT</field>
+<field type="CharField" name="location">MAH</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">S Aravindh Raj . - 30301</field>
+</object>
+<object pk="16" model="scan_stages">
+<field type="DateTimeField" name="updated_on">01 Feb, 2019, 22:02 </field>
+<field type="CharField" name="status">Bag scanned at Hub</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">IN</field>
+<field type="CharField" name="location">MAH</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Hub</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">Prakash J - O57018</field>
+</object>
+<object pk="17" model="scan_stages">
+<field type="DateTimeField" name="updated_on">01 Feb, 2019, 21:28 </field>
+<field type="CharField" name="status">
+Shipment connected to KADAPA HUB - KDH (Bag No. SG0770602)
+</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">003</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">MPC</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Processing Centre</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">NAVEENKUMAR B - 59267</field>
+</object>
+<object pk="18" model="scan_stages">
+<field type="DateTimeField" name="updated_on">01 Feb, 2019, 21:28 </field>
+<field type="CharField" name="status">Shipment in-scan</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">002</field>
+<field type="CharField" name="scan_status">IN</field>
+<field type="CharField" name="location">MPC</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Processing Centre</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">NAVEENKUMAR B - 59267</field>
+</object>
+<object pk="19" model="scan_stages">
+<field type="DateTimeField" name="updated_on">01 Feb, 2019, 19:30 </field>
+<field type="CharField" name="status">Shipment in-scan</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">002</field>
+<field type="CharField" name="scan_status">IN</field>
+<field type="CharField" name="location">MPC</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Processing Centre</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">None</field>
+</object>
+<object pk="20" model="scan_stages">
+<field type="DateTimeField" name="updated_on">01 Feb, 2019, 17:43 </field>
+<field type="CharField" name="status">Shipment Picked Up</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">0011</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">MPC</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Processing Centre</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">Krishna V - 49302</field>
+</object>
+<object pk="21" model="scan_stages">
+<field type="DateTimeField" name="updated_on">01 Feb, 2019, 17:14 </field>
+<field type="CharField" name="status">Pickup Assigned</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">1220</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">MPC</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Processing Centre</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">Krishna V - 49302</field>
+</object>
+<object pk="22" model="scan_stages">
+<field type="DateTimeField" name="updated_on">01 Feb, 2019, 17:14 </field>
+<field type="CharField" name="status">Out for Pickup</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">1230</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">MPC</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Processing Centre</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">Krishna V - 49302</field>
+</object>
+<object pk="23" model="scan_stages">
+<field type="DateTimeField" name="updated_on">01 Feb, 2019, 17:05 </field>
+<field type="CharField" name="status">Picked Rescheduled, Request received after cutoff</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">1400</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">MPC</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Processing Centre</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">None</field>
+</object>
+<object pk="24" model="scan_stages">
+<field type="DateTimeField" name="updated_on">01 Feb, 2019, 16:58 </field>
+<field type="CharField" name="status">Soft data uploaded</field>
+<field type="CharField" name="reason_code"> - </field>
+<field type="CharField" name="reason_code_number">001</field>
+<field type="CharField" name="scan_status">HOLD</field>
+<field type="CharField" name="location">MPC</field>
+<field type="CharField" name="location_city">CHENNAI</field>
+<field type="CharField" name="location_type">Processing Centre</field>
+<field type="CharField" name="city_name">CHENNAI</field>
+<field type="CharField" name="Employee">None</field>
+</object>
+
+</ecomexpress-objects>

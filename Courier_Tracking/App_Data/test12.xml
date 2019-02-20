@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ecomexpress-objects version="1.0">
+<object pk="1" model="awb">
+<field type="BigIntegerField" name="awb_number">294346073</field>
+<field type="CharField" name="orderid">ORD13011/18-19/25</field>
+<field type="FloatField" name="actual_weight">10</field>
+<field type="CharField" name="origin">CHENNAI - MPC</field>
+<field type="CharField" name="destination">CUMBUM - AP - CBM</field>
+<field type="CharField" name="current_location_name">CUMBUM - AP - CBM</field>
+<field type="CharField" name="current_location_code">CBM</field>
+<field type="CharField" name="customer">
+KKROWTEN INDIA ENTERPRISES PRIVATE LIMITED - 352080
+</field>
+
+</object>
+</ecomexpress-objects>
