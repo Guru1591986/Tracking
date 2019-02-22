@@ -83,10 +83,10 @@ namespace Courier_Tracking
                                             {
                                                 tablestring = "<div  class='order-status-timeline'><div class='order-status-timeline-completion c4'></div></div>";
                                             }
-                                            else if (a5 == "In-Transit" || a5 == "Out for Pickup" || a5 == "Pickup Assigned" || a5 == "Out for Pickup" || a5 == "Bag scanned at DC" || a5 == "Bag connected from HUB" || a5 == "Bag scanned at Hub" || a5 == "Bag scanned at Hub" || a5 == "Bag connected from HUB" || a5 == "Shipment Picked Up")
+                                            else if (a5 == "In-Transit" || a5 == "Out for Pickup" || a5 == "Pickup Assigned" || a5 == "Out for Pickup" || a5 == "Bag scanned at DC" || a5 == "Bag connected from HUB" || a5 == "Bag scanned at Hub" || a5 == "Bag scanned at Hub" || a5 == "Bag connected from HUB" || a5 == "Shipment Picked Up" || a5 == "Shipment in-scan at DC")
                                             {
 
-                                                tablestring = "<div  class='order-status-timeline'><div class='order-status-timeline-completion c2'></div></div>";
+                                                tablestring = "<div  class='order-status-timeline'><div class='order-status-timeline-completion c3'></div></div>";
                                                 //sts_lbl.Text = a5;
                                             }
                                             else if (a5 == "Soft data uploaded")
@@ -95,7 +95,7 @@ namespace Courier_Tracking
                                             }
                                             else
                                             {
-                                                tablestring = "<div  class='order-status-timeline'><div class='order-status-timeline-completion c0'></div></div>";
+                                                tablestring = "<div  class='order-status-timeline'><div class='order-status-timeline-completion c2'></div></div>";
                                             }
                                             if (a4 == "updated_on")
                                             {
@@ -152,7 +152,7 @@ namespace Courier_Tracking
                                                         fdat = "1";
                                                     }
                                                     tim = aa5.Substring(13, 6);
-                                                    tblstring = tblstring + "<tr><td><b>" + dat + "</b></td><td> </td></tr>";
+                                                    tblstring = tblstring + "<tr><td  ><b>" + dat + "</b></td><td  > </td></tr>";
                                                 }                                          
                                            }
                                             else if (aa4 == "status")

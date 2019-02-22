@@ -12,8 +12,8 @@
 .shop-tracking-status .order-status-timeline{height:12px;border:1px solid #aaa;border-radius:7px;background:#eee;box-shadow:0px 0px 5px 0px #C2C2C2 inset}.shop-tracking-status .order-status-timeline .order-status-timeline-completion{height:8px;margin:1px;border-radius:7px;background:#cf7400;width:0px}
 .shop-tracking-status .order-status-timeline .order-status-timeline-completion.c0{width:10%}
 .shop-tracking-status .order-status-timeline .order-status-timeline-completion.c1{width:25%}
-.shop-tracking-status .order-status-timeline .order-status-timeline-completion.c2{width:53%}
-.shop-tracking-status .order-status-timeline .order-status-timeline-completion.c3{width:79%}
+.shop-tracking-status .order-status-timeline .order-status-timeline-completion.c2{width:45%}
+.shop-tracking-status .order-status-timeline .order-status-timeline-completion.c3{width:60%}
 .shop-tracking-status .order-status-timeline .order-status-timeline-completion.c4{width:100%}
 .shop-tracking-status .image-order-status{border:1px solid #ddd;padding:7px;box-shadow:0px 0px 10px 0px #999;background-color:#fdfdfd;position:absolute;margin-top:-35px}.shop-tracking-status .image-order-status.disabled{filter:url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:gray;}
 .shop-tracking-status .image-order-status.active{box-shadow:0px 0px 10px 0px #cf7400}.shop-tracking-status .image-order-status.active .status{color:#cf7400;text-shadow:0px 0px 1px #777}
@@ -171,7 +171,7 @@ tr:last-of-type td:last-child {
     <div class="container-fluid ng-scope" ng-controller="HeaderCategoriesCtrl">
         <div id="headerLogo">
             <div class="container">
-                <a href="#"><img src="https://kkrowten.com/templates/templates2/images/logo.png" alt=""></a>
+                <a href="https://kkrowten.com"><img src="https://kkrowten.com/templates/templates2/images/logo.png" alt=""></a>
             </div>
         </div>
         <div id="headerNavMenu">
@@ -190,7 +190,7 @@ tr:last-of-type td:last-child {
                 <div  class="form-group">
                 
                         <div class="col-sm-10">
-                            <b> Enter Your AWB Number:</b> &nbsp; <asp:TextBox ID="track_id" runat="server" Text="" onkeypress="return isNumberKey(event)" ></asp:TextBox>
+                       &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;   <b > Enter Your AWB Number:</b>  &nbsp; <asp:TextBox ID="track_id" runat="server" Text="" onkeypress="return isNumberKey(event)" ></asp:TextBox>
                             
                         <asp:Button ID="Button1" runat="server" Text="Get Status" OnClick="sub_btn_Click" class="btn btn-success" ></asp:Button><br />
                             <asp:RequiredFieldValidator runat="server" id="reqName" controltovalidate="track_id" ForeColor="Red" errormessage="AWB Number Required" />
